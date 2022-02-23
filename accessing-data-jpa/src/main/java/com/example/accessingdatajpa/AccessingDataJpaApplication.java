@@ -1,15 +1,13 @@
-package src.main.java.com.example.Payroll;
-
-//package org.springframework.boot;
+package com.example.accessingdatajpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PayrollApplication {
+public class AccessingDataJpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PayrollApplication.class, args);
+		SpringApplication.run(AccessingDataJpaApplication.class, args);
 	}
 
 }
